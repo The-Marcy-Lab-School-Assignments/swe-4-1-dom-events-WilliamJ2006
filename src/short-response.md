@@ -144,7 +144,7 @@ todoList.addEventListener("click", (event) => {
 
 **Your Answer:**
 
-1. `Event Delegation` is the name and it's the better approach because the alternative is to hand each `li` individually which would mean more event listeners.
+1. `Event Delegation` is the name and it's the better approach because the alternative is to handle each `li` individually which would mean more event listeners.
 2. `event.target.closest('li')` means we're targeting the closest `li` child that was involved when we clicked the parent element.
 
 ## Question 5: NodeList
